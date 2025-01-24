@@ -1,0 +1,28 @@
+deep learning:
+https://www.geeksforgeeks.org/introduction-deep-learning/
+
+machine learning:
+https://www.geeksforgeeks.org/machine-learning/
+
+CNN:
+https://www.run.ai/guides/deep-learning-for-computer-vision/deep-convolutional-neural-networks
+
+
+faster R-CNN:
+https://www.geeksforgeeks.org/faster-r-cnn-ml/
+This model has been highlighted as effective for both deep and shallow crack detection due to its balance between speed and accuracy. It performs well under various conditions but may require substantial datasets for optimal performance.
+
+mask CNN:
+https://www.geeksforgeeks.org/mask-r-cnn-ml/
+This model extends Faster R-CNN by adding a segmentation branch that allows it to produce masks for detected objects (in this case, cracks). 
+It is particularly useful for detecting fine cracks but tends to be slower than Faster R-CNN due to its two-stage process. Mask R-CNN is recommended when precise segmentation is required.
+
+unet CNN:
+https://www.geeksforgeeks.org/u-net-architecture-explained/
+
+
+
+conclusion:
+If speed is crucial and some loss in bounding box accuracy is acceptable, Faster R-CNN is a solid choice.
+For applications where precise segmentation is essential, especially with fine cracks, Mask R-CNN or U-Net would be more suitable despite their slower processing speeds.
+The choice between these models ultimately depends on the specific requirements of the task at hand, including the need for real-time processing versus the necessity of high accuracy in crack localization and segmentation.
